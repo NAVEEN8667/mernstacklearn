@@ -1,0 +1,45 @@
+7<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myself</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>NAVEEN KUMAR </h1>
+            <h2>Web Developer</h2>
+            </section>
+    </header>
+            
+        
+        <main>
+            <section>
+                <p>Hi, I'm Naveen Kumar, a passionate web developer with a keen interest in creating dynamic and responsive web applications. I love coding and enjoy learning new technologies.</p>
+            </section>
+
+            <section>
+                <img src="Naveen.png" alt="profile" style="width: 180px; height: 150px; border-radius: 50%;">
+        </section>
+        <section>
+            <h3>skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        </main>
+        
+        <footer>
+            <section>
+                <p>all copy rights reserved</p>
+            </section>
+        </footer>
+ 
+    
+</body>
+</html>

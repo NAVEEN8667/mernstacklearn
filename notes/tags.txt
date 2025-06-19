@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>naveen</h1>
+    <h2>naveen</h2>
+    <h3>naveen</h3>
+    <h4>naveen</h4>
+    <h5>naveen</h5>
+    <h6>naveen</h6>
+    <h7>naveen</h7>
+    <p>naveen</p>
+    <br>
+    <hr>
+    <p>h<sub>2</sub>o</p>
+    <pre>ajith 
+               kumar
+                          valimai
+    </pre>
+    <p>a<sup>2</sup></p>
+    <a href="/about.html">button</a>
+    <img src="./blue-circle-with-white-user_78370-4707.avif" alt="ntg" style="width:10 rem; height:10rem; margin: 0;">
+</body >
+</html>
+
+pat.newleafins.com

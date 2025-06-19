@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+    <style>
+      .formcontainer{
+        width: 50%;
+        border: 1px solid black;
+        margin:auto;
+        margin-top: 60px;
+        padding: 10px;
+        padding-bottom: 40px;
+        border-radius: 5px;
+        background-color:aliceblue;
+      }
+      .insidecontainer{
+        border:1px solid black;
+        width: 50%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 5px;
+        background-color: azure;
+      }
+      .formtitle{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top:20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        
+      }
+      label{
+        color: black;
+        font-size: large;
+        font-weight: 400;
+        margin-left: 25%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left:25%;
+        border: 2px solid grey;
+        border-radius: 5px;
+        padding: 4px;
+        ;
+      }
+      .radiogender{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+     .submit{
+        background-color:grey;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 2px 2px 3px grey;
+      }
+      .submit:hover{
+        background-color: black;
+      }
+      .inputcontainer{
+        margin-top: 10px;
+      }
+      caption{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      nav{
+        position: sticky;
+        top: 0;
+      }
+      ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        border: 1px solid black;
+        border-radius: 5px;
+        gap: 10px;
+        padding: 10px;
+        list-style: none;
+        background-color: rgb(50, 48, 48);
+      }
+     a{
+        color:white;
+        text-decoration: none;
+        margin-right: 10px;
+     }
+    </style>
+</head>
+<body>
+  
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>   
+                </li>
+                 <li>
+                    <a href="about.html">About</a>
+                </li>
+                 <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                 <li>
+                    <a href="services.html">Services</a>
+                </li>
+            </ul>
+        </nav>
+
+    
+    <div class="formcontainer">
+    <form>
+        <div class="formtitle">
+            <caption>Registration Form</caption>
+            </div>
+            
+           <div class="insidecontainer">
+            <label for="name">Name:</label><br>
+            <input type="text" placeholder="Enter your name">
+           
+            <div class="inputcontainer">
+            <label for="mobile">MobileNo:</label><br>
+            <input type="tel" placeholder="Enter your mobile number">
+            </div>
+           
+            <div class="inputcontainer">
+                 <label for="email">EmailId:</label><br>
+            <input type="email" placeholder="enter emailid">
+            </div>
+           
+            <div class="inputcontainer">
+                <label for="age">age</label><br>
+            <input type="number" placeholder="enter your age"><div class="inputcontainer"></div>
+            </div>
+            <div class="inputcontainer">
+                <h4 class="radiogender"style="margin-left:25%">gender</h4>
+            <input type="radio" id="male" name="gender" value="male" style="margin-left: 90px;" >  
+            <label for="male"style="margin-left: 0px;">male</label>
+            <input type="radio" id="female" name="gender" value="female"style="margin-left: 0px;">
+            <label for="female"style="margin-left: 10px;">female</label>
+
+            </div>
+            
+           <div class="inputcontainer">
+             <label for="date">  date</label><br>
+           <input type="date">
+           </div>
+          
+           <div class="inputcontainer">
+            <label for="phno">ph no:</label><br>
+           <input type="tel" placeholder="enter your number">
+           </div>
+           
+           <div class="inputcontainer">
+             <label for="password">password</label><br>
+           <input type="password">
+           </div>
+          
+           <div class="inputcontainer">
+            <input type="checkbox" id="one" name="terms" value="terms and conditions">
+           <label for="one" style="margin-left: 10px;">agree terms and conditions</label><br>
+           </div>
+           
+           <div class="inputcontainer">
+            <button type="submit" style="width: 20%; margin-left: 39%;margin-top: 10px;" class="submit">Submit</button>
+           </div>
+           
+            </div>
+            
+         </form>
+         </div>
+</body>
+</html>

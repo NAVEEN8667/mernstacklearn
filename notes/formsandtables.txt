@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myself</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+   <div style="border: 1px solid">
+        <h1>NAVEEN KUMAR </h1>
+        <hr>
+            <h2>Web Developer</h2>
+   </div>
+        
+        
+            
+    
+        
+       <div>
+    <p>Hi, I'm Naveen Kumar, a passionate web developer with a keen interest in creating dynamic and responsive web applications. I love coding and enjoy learning new technologies.</p>
+          
+       </div>
+                <div>
+                <img src="Naveen.png" alt="profile" style="width: 180px; height: 150px; border-radius: 50%;">
+                </div>
+        <div>
+            <div>
+                <h3>skills</h3>
+            </div>
+            
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ol>
+        </div>
+        
+       <div>
+                <p>all copy rights reserved</p>
+         </div>
+         <table style="border: 1px solid;">
+            <caption>My Friends</caption>
+            <thead>
+                 <tr >
+            <th>first</th>
+            <th>second</th>
+            <th>third</th>
+            </tr>
+            </thead>
+           
+            <tbody>
+            <tr>
+                <td>thiluk</td>
+                <td>nandha</td>
+                <td>naveen</td>
+            </tr>
+            <tr>
+                <td>karthik</td>
+                <td>logesh</td>
+                <td>nishok</td>
+            </tr>
+            </tbody>
+          
+         </table>
+            <br>
+            <br>
+         <div style="width: 50%; margin: auto; border: 1px solid;padding: 10px;">
+         <form>
+            <caption>Registration Form</caption>
+            <br>
+
+           
+            <label for="name">Name:</label><br>
+            <input type="text" placeholder="Enter your name">
+           
+            <br>
+            <label for="mobile">MobileNo:</label><br>
+            <input type="tel" placeholder="Enter your mobile number">
+            <br>
+            <label for="email">EmailId:</label><br>
+            <input type="email" placeholder="enter emailid"><br>
+            <label for="age">age</label><br>
+            <input type="number" placeholder="enter your age"><br>
+            <h4>gender</h4>
+            <input type="radio" id="male" name="gender" value="male" >  
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+           <br>
+           <label for="date">  date</label><br>
+           <input type="date"><br>
+           <label for="phno">ph no:</label><br>
+           <input type="tel" placeholder="enter your number"><br>
+           <label for="password">password</label><br>
+           <input type="password"><br><br>
+           <input type="checkbox" id="one" name="terms" value="terms and conditions">
+           <label for="one">agree terms and conditions</label><br><br>
+           <button type="submit">Submit</button>
+
+            
+         </form>
+         </div>
+    
+</body>
+</html>

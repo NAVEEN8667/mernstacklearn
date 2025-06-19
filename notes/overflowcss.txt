@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+        img{
+           max-width: 50%;
+          
+            max-height: 100px;
+            margin: auto;
+            border-radius: 4px;
+            left: 40%;
+            display: block;
+        }
+        .container{
+            width:50%;
+            height: 200px;
+            border: 1px solid;
+            overflow: hidden;
+            margin: auto;
+            position: absolute;
+            top: 30%;
+            left:20%;
+            
+        }
+        p{
+            border: 1px solid;
+            margin-top: 10px;  
+            padding: 10px;
+            text-align: center;
+            
+        }
+        button{
+            position: absolute;
+            top: 57%;    
+            left: 42%;
+        }
+        
+
+        </style>
+       
+</head>
+<body>
+    
+    <div class="container">
+        <h1>title</h1>
+        <img src="assets/Naveen.png" alt="Naveen">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt. Hic aliquid quibusdam, laborum vel sit odio quas suscipit iure mollitia ab sequi fuga deleniti incidunt tempora, odit quos reiciendis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla sapiente minus qui nobis voluptatibus consequuntur amet ex doloremque quod natus soluta, earum cum atque consequatur enim officia aspernatur aliquam deleniti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non aspernatur id unde, perspiciatis dolores rerum numquam ut quisquam blanditiis nemo! Itaque, numquam. Labore sunt officiis doloremque, velit omnis quia.</p>
+    </div>
+    <button onclick="location.href='knowmore.html'" >know more</button>
+
+</body>
+</html>
